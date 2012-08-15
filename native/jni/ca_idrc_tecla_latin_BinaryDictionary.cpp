@@ -19,7 +19,7 @@
 
 #include "binary_format.h"
 #include "correction.h"
-#include "com_android_inputmethod_latin_BinaryDictionary.h"
+#include "ca_idrc_tecla_latin_BinaryDictionary.h"
 #include "defines.h"
 #include "dictionary.h"
 #include "jni.h"

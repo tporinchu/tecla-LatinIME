@@ -34,8 +34,8 @@ LOCAL_CFLAGS += -Wall
 LOCAL_CFLAGS += -Wno-unused-parameter -Wno-unused-function
 
 LATIN_IME_JNI_SRC_FILES := \
-    com_android_inputmethod_keyboard_ProximityInfo.cpp \
-    com_android_inputmethod_latin_BinaryDictionary.cpp \
+    ca_idrc_tecla_keyboard_ProximityInfo.cpp \
+    ca_idrc_tecla_latin_BinaryDictionary.cpp \
     jni_common.cpp
 
 LATIN_IME_CORE_SRC_FILES := \

@@ -17,8 +17,8 @@
 
 #define LOG_TAG "LatinIME: jni"
 
-#include "com_android_inputmethod_keyboard_ProximityInfo.h"
-#include "com_android_inputmethod_latin_BinaryDictionary.h"
+#include "ca_idrc_tecla_keyboard_ProximityInfo.h"
+#include "ca_idrc_tecla_latin_BinaryDictionary.h"
 #include "defines.h"
 #include "jni.h"
 #include "proximity_info.h"
