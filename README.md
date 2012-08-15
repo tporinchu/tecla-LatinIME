@@ -16,5 +16,5 @@ Relies on symlinks to Android framework packages:
 
 1. Renamed package to ca.idrc.tecla
 1. Search and replaced original namespace references from com.android.inputmethod.<endpoint> to ca.idrc.tecla.<endpoint>
-1. Renamed native code files and package references to reflect updated namespace (e.g., ProximityInfo, BinaryDictionary)
+1. Renamed native code files and package references to reflect updated namespace (search & replace com.android... com/android... com_android...)
 1. Removed -Werror flag from Android.mk NDK file

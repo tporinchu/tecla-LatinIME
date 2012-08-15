@@ -30,7 +30,7 @@ import java.util.Locale;
 public class BinaryDictionary extends Dictionary {
 
     public static final String DICTIONARY_PACK_AUTHORITY =
-            "ca.idrc.tecla.latin.dictionarypack";
+            "com.android.inputmethod.latin.dictionarypack";
 
     /**
      * There is a difference between what java and native code can handle.
