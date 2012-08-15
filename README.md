@@ -2,9 +2,9 @@
 
 Upstream remote (origin): https://android.googlesource.com/platform/packages/inputmethods/LatinIME @jb-release
 
-Relies on symlinks to Android framework packages:
-* inputmethodcommon: https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon @jb-release
-* support: https://android.googlesource.com/platform/frameworks/support @jb-release
+Relies on the following framework packages:
+* inputmethodcommon: symlink to https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon @jb-release
+* support: in Eclipse > Android Tools > Add support library...
 
 ## Branches
 
