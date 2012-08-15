@@ -12,18 +12,18 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.makedict.BinaryDictInputOutput;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.Node;
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
+import ca.idrc.tecla.keyboard.ProximityInfo;
+import ca.idrc.tecla.latin.makedict.BinaryDictInputOutput;
+import ca.idrc.tecla.latin.makedict.FusionDictionary;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.Node;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.WeightedString;
+import ca.idrc.tecla.latin.makedict.UnsupportedFormatException;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -14,14 +14,14 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.graphics.Rect;
 import android.text.TextUtils;
 import android.util.FloatMath;
 
-import com.android.inputmethod.keyboard.Keyboard.Params.TouchPositionCorrection;
-import com.android.inputmethod.latin.JniUtils;
+import ca.idrc.tecla.keyboard.Keyboard.Params.TouchPositionCorrection;
+import ca.idrc.tecla.latin.JniUtils;
 
 import java.util.Arrays;
 import java.util.HashMap;

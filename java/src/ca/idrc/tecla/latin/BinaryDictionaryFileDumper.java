@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.ContentResolver;
 import android.content.Context;

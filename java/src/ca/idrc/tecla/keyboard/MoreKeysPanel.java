@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.view.View;
 import android.widget.PopupWindow;

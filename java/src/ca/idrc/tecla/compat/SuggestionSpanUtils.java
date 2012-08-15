@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package ca.idrc.tecla.compat;
 
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestionSpanPickedNotificationReceiver;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.SuggestedWords;
+import ca.idrc.tecla.latin.SuggestionSpanPickedNotificationReceiver;
 
 import android.content.Context;
 import android.text.Spannable;

@@ -14,14 +14,14 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.XmlParseUtils;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

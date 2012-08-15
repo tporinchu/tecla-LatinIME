@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.PointerTracker;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.PointerTracker;
 
 import java.util.Iterator;
 import java.util.LinkedList;

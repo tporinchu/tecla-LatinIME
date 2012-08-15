@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package ca.idrc.tecla.latin.makedict;
 
-import com.android.inputmethod.latin.makedict.FusionDictionary.CharGroup;
-import com.android.inputmethod.latin.makedict.FusionDictionary.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary.Node;
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.CharGroup;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.DictionaryOptions;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.Node;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.WeightedString;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;

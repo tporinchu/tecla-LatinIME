@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,19 +26,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.accessibility.AccessibleKeyboardViewProxy;
-import com.android.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
-import com.android.inputmethod.keyboard.PointerTracker.TimerProxy;
-import com.android.inputmethod.keyboard.internal.KeyboardState;
-import com.android.inputmethod.latin.DebugSettings;
-import com.android.inputmethod.latin.ImfUtils;
-import com.android.inputmethod.latin.InputView;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SettingsValues;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.Utils;
+import ca.idrc.tecla.accessibility.AccessibleKeyboardViewProxy;
+import ca.idrc.tecla.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
+import ca.idrc.tecla.keyboard.PointerTracker.TimerProxy;
+import ca.idrc.tecla.keyboard.internal.KeyboardState;
+import ca.idrc.tecla.latin.DebugSettings;
+import ca.idrc.tecla.latin.ImfUtils;
+import ca.idrc.tecla.latin.InputView;
+import ca.idrc.tecla.latin.LatinIME;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.SettingsValues;
+import ca.idrc.tecla.latin.SubtypeSwitcher;
+import ca.idrc.tecla.latin.Utils;
 
 public class KeyboardSwitcher implements KeyboardState.SwitchActions {
     private static final String TAG = KeyboardSwitcher.class.getSimpleName();

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -37,10 +37,10 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.StaticInnerHandlerWrapper;
-import com.android.inputmethod.latin.StringUtils;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.StaticInnerHandlerWrapper;
+import ca.idrc.tecla.latin.StringUtils;
 
 import java.util.HashMap;
 import java.util.HashSet;

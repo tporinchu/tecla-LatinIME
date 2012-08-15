@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 
 public class KeyDetector {

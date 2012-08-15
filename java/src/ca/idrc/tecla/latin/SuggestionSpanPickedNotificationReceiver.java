@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import com.android.inputmethod.compat.SuggestionSpanUtils;
+import ca.idrc.tecla.compat.SuggestionSpanUtils;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

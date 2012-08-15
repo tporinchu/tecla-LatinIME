@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.os.AsyncTask;
 import android.provider.BaseColumns;
 import android.util.Log;
 
-import com.android.inputmethod.latin.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
+import ca.idrc.tecla.latin.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
 
 import java.lang.ref.SoftReference;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         coreApp="true"
-        package="com.android.inputmethod.latin">
+        package="ca.idrc.tecla.latin">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity"
+        <activity android:name="ca.idrc.tecla.latin.spellcheck.SpellCheckerSettingsActivity"
                   android:label="@string/android_spell_checker_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

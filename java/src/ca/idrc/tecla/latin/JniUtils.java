@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.util.Log;
 
-import com.android.inputmethod.latin.define.JniLibName;
+import ca.idrc.tecla.latin.define.JniLibName;
 
 public class JniUtils {
     private static final String TAG = JniUtils.class.getSimpleName();

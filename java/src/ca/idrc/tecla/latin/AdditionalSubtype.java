@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import static com.android.inputmethod.latin.Constants.Subtype.KEYBOARD_MODE;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static ca.idrc.tecla.latin.Constants.Subtype.KEYBOARD_MODE;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
 
 import android.os.Build;
 import android.text.TextUtils;

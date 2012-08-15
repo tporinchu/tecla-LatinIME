@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
@@ -25,7 +25,7 @@ import android.database.Cursor;
 import android.provider.UserDictionary.Words;
 import android.text.TextUtils;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 import java.util.Arrays;
 

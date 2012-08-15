@@ -14,10 +14,10 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.latin.Dictionary;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 /**
  * A simple container for both a Dictionary and a ProximityInfo.

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,7 +25,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.LocaleUtils.RunInLocale;
+import ca.idrc.tecla.latin.LocaleUtils.RunInLocale;
 
 import java.util.HashMap;
 import java.util.Locale;

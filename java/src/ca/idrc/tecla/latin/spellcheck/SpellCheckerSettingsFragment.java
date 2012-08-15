@@ -14,12 +14,12 @@
  * under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.latin.R;
 
 /**
  * Preference screen.

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,7 +26,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.PreferenceFragment;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
+import ca.idrc.tecla.keyboard.KeyboardSwitcher;
 
 public class DebugSettings extends PreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {

@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
-import com.android.inputmethod.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.Keyboard;
 
 import java.util.HashMap;
 

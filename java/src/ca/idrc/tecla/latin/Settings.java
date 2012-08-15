@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.app.AlertDialog;
 import android.app.backup.BackupManager;
@@ -38,8 +38,8 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethodcommon.InputMethodSettingsFragment;
+import ca.idrc.tecla.latin.define.ProductionFlag;
+import ca.idrc.inputmethodcommon.InputMethodSettingsFragment;
 
 public class Settings extends InputMethodSettingsFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {

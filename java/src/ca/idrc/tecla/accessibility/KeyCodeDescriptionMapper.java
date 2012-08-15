@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package ca.idrc.tecla.accessibility;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardId;
+import ca.idrc.tecla.latin.R;
 
 import java.util.HashMap;
 

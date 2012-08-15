@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
 import android.util.Log;
 

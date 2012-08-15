@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.os.SystemClock;
 import android.util.Log;
@@ -22,10 +22,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.inputmethod.keyboard.internal.PointerTrackerQueue;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.ResearchLogger;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.keyboard.internal.PointerTrackerQueue;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.ResearchLogger;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 import java.util.ArrayList;
 

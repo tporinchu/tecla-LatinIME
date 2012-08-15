@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package ca.idrc.tecla.accessibility;
 
 import android.graphics.Rect;
 import android.inputmethodservice.InputMethodService;
@@ -32,9 +32,9 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardView;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardView;
 
 /**
  * Exposes a virtual view sub-tree for {@link KeyboardView} and generates

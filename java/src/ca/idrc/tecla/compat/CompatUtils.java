@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package ca.idrc.tecla.compat;
 
 import android.content.Intent;
 import android.text.TextUtils;

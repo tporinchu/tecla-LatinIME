@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -26,7 +26,7 @@ import android.provider.ContactsContract.Contacts;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.Keyboard;
 
 // TODO: This class is superseded by {@link ContactsBinaryDictionary}. Should be cleaned up.
 /**

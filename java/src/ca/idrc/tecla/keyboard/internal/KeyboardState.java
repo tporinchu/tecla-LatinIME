@@ -14,15 +14,15 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.ResearchLogger;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.latin.Constants;
+import ca.idrc.tecla.latin.ResearchLogger;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 /**
  * Keyboard state machine.

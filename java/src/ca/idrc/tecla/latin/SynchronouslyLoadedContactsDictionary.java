@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 public class SynchronouslyLoadedContactsDictionary extends ContactsDictionary {
     private boolean mClosed;

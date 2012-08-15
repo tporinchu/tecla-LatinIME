@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package ca.idrc.tecla.compat;
 
 import android.content.Context;
 import android.os.IBinder;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.ImfUtils;
+import ca.idrc.tecla.latin.ImfUtils;
 
 import java.lang.reflect.Method;
 

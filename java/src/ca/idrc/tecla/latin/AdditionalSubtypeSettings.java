@@ -14,9 +14,9 @@
  * under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -44,7 +44,7 @@ import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
-import com.android.inputmethod.compat.CompatUtils;
+import ca.idrc.tecla.compat.CompatUtils;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

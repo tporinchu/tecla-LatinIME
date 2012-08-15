@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.accessibility;
+package ca.idrc.tecla.accessibility;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -26,12 +26,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.keyboard.LatinKeyboardView;
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardId;
+import ca.idrc.tecla.keyboard.LatinKeyboardView;
+import ca.idrc.tecla.keyboard.PointerTracker;
+import ca.idrc.tecla.latin.R;
 
 public class AccessibleKeyboardViewProxy extends AccessibilityDelegateCompat {
     private static final AccessibleKeyboardViewProxy sInstance = new AccessibleKeyboardViewProxy();

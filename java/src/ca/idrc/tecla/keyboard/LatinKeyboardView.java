@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
@@ -39,20 +39,20 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodSubtype;
 import android.widget.PopupWindow;
 
-import com.android.inputmethod.accessibility.AccessibilityUtils;
-import com.android.inputmethod.accessibility.AccessibleKeyboardViewProxy;
-import com.android.inputmethod.keyboard.PointerTracker.DrawingProxy;
-import com.android.inputmethod.keyboard.PointerTracker.TimerProxy;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.ResearchLogger;
-import com.android.inputmethod.latin.StaticInnerHandlerWrapper;
-import com.android.inputmethod.latin.StringUtils;
-import com.android.inputmethod.latin.SubtypeLocale;
-import com.android.inputmethod.latin.Utils;
-import com.android.inputmethod.latin.Utils.UsabilityStudyLogUtils;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.accessibility.AccessibilityUtils;
+import ca.idrc.tecla.accessibility.AccessibleKeyboardViewProxy;
+import ca.idrc.tecla.keyboard.PointerTracker.DrawingProxy;
+import ca.idrc.tecla.keyboard.PointerTracker.TimerProxy;
+import ca.idrc.tecla.latin.LatinIME;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.ResearchLogger;
+import ca.idrc.tecla.latin.StaticInnerHandlerWrapper;
+import ca.idrc.tecla.latin.StringUtils;
+import ca.idrc.tecla.latin.SubtypeLocale;
+import ca.idrc.tecla.latin.Utils;
+import ca.idrc.tecla.latin.Utils.UsabilityStudyLogUtils;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 import java.util.Locale;
 import java.util.WeakHashMap;

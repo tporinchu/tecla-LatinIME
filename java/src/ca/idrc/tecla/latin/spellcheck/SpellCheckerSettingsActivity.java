@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
 import android.content.Intent;
 import android.os.Bundle;

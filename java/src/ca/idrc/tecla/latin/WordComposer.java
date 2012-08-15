@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardActionListener;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.KeyDetector;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardActionListener;
 
 import java.util.Arrays;
 

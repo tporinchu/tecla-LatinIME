@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.SharedPreferences;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.Keyboard;
 
 public class LatinImeLogger implements SharedPreferences.OnSharedPreferenceChangeListener {
 

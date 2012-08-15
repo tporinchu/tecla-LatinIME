@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import ca.idrc.tecla.latin.SuggestedWords.SuggestedWordInfo;
 
 import android.text.TextUtils;
 import android.util.Log;

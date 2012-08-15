@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,8 +23,8 @@ import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.keyboard.internal.KeySpecParser;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import ca.idrc.tecla.keyboard.internal.KeySpecParser;
+import ca.idrc.tecla.latin.SuggestedWords.SuggestedWordInfo;
 
 import java.util.ArrayList;
 import java.util.Arrays;

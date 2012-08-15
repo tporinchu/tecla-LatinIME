@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 public class MoreKeysDetector extends KeyDetector {
     private final int mSlideAllowanceSquare;

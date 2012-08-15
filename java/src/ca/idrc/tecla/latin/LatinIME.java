@@ -14,11 +14,11 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import static com.android.inputmethod.latin.Constants.ImeOption.FORCE_ASCII;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import static ca.idrc.tecla.latin.Constants.ImeOption.FORCE_ASCII;
+import static ca.idrc.tecla.latin.Constants.ImeOption.NO_MICROPHONE;
+import static ca.idrc.tecla.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -59,20 +59,20 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.accessibility.AccessibilityUtils;
-import com.android.inputmethod.accessibility.AccessibleKeyboardViewProxy;
-import com.android.inputmethod.compat.CompatUtils;
-import com.android.inputmethod.compat.InputMethodManagerCompatWrapper;
-import com.android.inputmethod.compat.SuggestionSpanUtils;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardActionListener;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.keyboard.LatinKeyboardView;
-import com.android.inputmethod.latin.LocaleUtils.RunInLocale;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.suggestions.SuggestionsView;
+import ca.idrc.tecla.accessibility.AccessibilityUtils;
+import ca.idrc.tecla.accessibility.AccessibleKeyboardViewProxy;
+import ca.idrc.tecla.compat.CompatUtils;
+import ca.idrc.tecla.compat.InputMethodManagerCompatWrapper;
+import ca.idrc.tecla.compat.SuggestionSpanUtils;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardActionListener;
+import ca.idrc.tecla.keyboard.KeyboardId;
+import ca.idrc.tecla.keyboard.KeyboardSwitcher;
+import ca.idrc.tecla.keyboard.KeyboardView;
+import ca.idrc.tecla.keyboard.LatinKeyboardView;
+import ca.idrc.tecla.latin.LocaleUtils.RunInLocale;
+import ca.idrc.tecla.latin.define.ProductionFlag;
+import ca.idrc.tecla.latin.suggestions.SuggestionsView;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package ca.idrc.tecla.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,17 +24,17 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.PopupWindow;
 
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardActionListener;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.keyboard.MoreKeysDetector;
-import com.android.inputmethod.keyboard.MoreKeysPanel;
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.keyboard.PointerTracker.DrawingProxy;
-import com.android.inputmethod.keyboard.PointerTracker.KeyEventHandler;
-import com.android.inputmethod.keyboard.PointerTracker.TimerProxy;
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.keyboard.KeyDetector;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardActionListener;
+import ca.idrc.tecla.keyboard.KeyboardView;
+import ca.idrc.tecla.keyboard.MoreKeysDetector;
+import ca.idrc.tecla.keyboard.MoreKeysPanel;
+import ca.idrc.tecla.keyboard.PointerTracker;
+import ca.idrc.tecla.keyboard.PointerTracker.DrawingProxy;
+import ca.idrc.tecla.keyboard.PointerTracker.KeyEventHandler;
+import ca.idrc.tecla.keyboard.PointerTracker.TimerProxy;
+import ca.idrc.tecla.latin.R;
 
 /**
  * A view that renders a virtual {@link MoreSuggestions}. It handles rendering of keys and detecting

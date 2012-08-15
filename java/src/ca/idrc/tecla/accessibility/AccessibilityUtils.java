@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package ca.idrc.tecla.accessibility;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -27,10 +27,10 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.compat.AudioManagerCompatWrapper;
-import com.android.inputmethod.compat.SettingsSecureCompatUtils;
-import com.android.inputmethod.latin.InputTypeUtils;
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.compat.AudioManagerCompatWrapper;
+import ca.idrc.tecla.compat.SettingsSecureCompatUtils;
+import ca.idrc.tecla.latin.InputTypeUtils;
+import ca.idrc.tecla.latin.R;
 
 public class AccessibilityUtils {
     private static final String TAG = AccessibilityUtils.class.getSimpleName();

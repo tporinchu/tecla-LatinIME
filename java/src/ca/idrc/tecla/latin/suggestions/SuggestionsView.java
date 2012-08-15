@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package ca.idrc.tecla.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -52,19 +52,19 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.inputmethod.keyboard.KeyboardActionListener;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.keyboard.MoreKeysPanel;
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.keyboard.ViewLayoutUtils;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.ResearchLogger;
-import com.android.inputmethod.latin.StaticInnerHandlerWrapper;
-import com.android.inputmethod.latin.Suggest;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.Utils;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.keyboard.KeyboardActionListener;
+import ca.idrc.tecla.keyboard.KeyboardView;
+import ca.idrc.tecla.keyboard.MoreKeysPanel;
+import ca.idrc.tecla.keyboard.PointerTracker;
+import ca.idrc.tecla.keyboard.ViewLayoutUtils;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.ResearchLogger;
+import ca.idrc.tecla.latin.StaticInnerHandlerWrapper;
+import ca.idrc.tecla.latin.Suggest;
+import ca.idrc.tecla.latin.SuggestedWords;
+import ca.idrc.tecla.latin.Utils;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 import java.util.ArrayList;
 

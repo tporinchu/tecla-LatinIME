@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import static com.android.inputmethod.latin.Constants.Subtype.KEYBOARD_MODE;
+import static ca.idrc.tecla.latin.Constants.Subtype.KEYBOARD_MODE;
 
 import android.content.Context;
 import android.view.inputmethod.InputMethodInfo;

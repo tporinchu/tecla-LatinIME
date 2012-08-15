@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -32,7 +32,7 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import ca.idrc.tecla.latin.SuggestedWords.SuggestedWordInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -14,19 +14,19 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package ca.idrc.tecla.latin.suggestions;
 
 import android.content.res.Resources;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.Utils;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.KeyboardSwitcher;
+import ca.idrc.tecla.keyboard.internal.KeyboardIconsSet;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.SuggestedWords;
+import ca.idrc.tecla.latin.Utils;
 
 public class MoreSuggestions extends Keyboard {
     public static final int SUGGESTION_CODE_BASE = 1024;

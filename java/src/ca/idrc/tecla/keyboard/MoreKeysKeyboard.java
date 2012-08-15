@@ -14,16 +14,16 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.internal.KeySpecParser.MoreKeySpec;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.StringUtils;
+import ca.idrc.tecla.keyboard.internal.KeySpecParser.MoreKeySpec;
+import ca.idrc.tecla.keyboard.internal.KeyboardIconsSet;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.StringUtils;
 
 public class MoreKeysKeyboard extends Keyboard {
     private final int mDefaultKeyCoordX;

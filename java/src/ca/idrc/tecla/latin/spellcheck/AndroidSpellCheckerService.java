@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -27,23 +27,23 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import com.android.inputmethod.compat.SuggestionsInfoCompatUtils;
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.BinaryDictionary;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.Dictionary.WordCallback;
-import com.android.inputmethod.latin.DictionaryCollection;
-import com.android.inputmethod.latin.DictionaryFactory;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.LocaleUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.StringUtils;
-import com.android.inputmethod.latin.SynchronouslyLoadedContactsBinaryDictionary;
-import com.android.inputmethod.latin.SynchronouslyLoadedContactsDictionary;
-import com.android.inputmethod.latin.SynchronouslyLoadedUserBinaryDictionary;
-import com.android.inputmethod.latin.SynchronouslyLoadedUserDictionary;
-import com.android.inputmethod.latin.WhitelistDictionary;
-import com.android.inputmethod.latin.WordComposer;
+import ca.idrc.tecla.compat.SuggestionsInfoCompatUtils;
+import ca.idrc.tecla.keyboard.ProximityInfo;
+import ca.idrc.tecla.latin.BinaryDictionary;
+import ca.idrc.tecla.latin.Dictionary;
+import ca.idrc.tecla.latin.Dictionary.WordCallback;
+import ca.idrc.tecla.latin.DictionaryCollection;
+import ca.idrc.tecla.latin.DictionaryFactory;
+import ca.idrc.tecla.latin.LatinIME;
+import ca.idrc.tecla.latin.LocaleUtils;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.StringUtils;
+import ca.idrc.tecla.latin.SynchronouslyLoadedContactsBinaryDictionary;
+import ca.idrc.tecla.latin.SynchronouslyLoadedContactsDictionary;
+import ca.idrc.tecla.latin.SynchronouslyLoadedUserBinaryDictionary;
+import ca.idrc.tecla.latin.SynchronouslyLoadedUserDictionary;
+import ca.idrc.tecla.latin.WhitelistDictionary;
+import ca.idrc.tecla.latin.WordComposer;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

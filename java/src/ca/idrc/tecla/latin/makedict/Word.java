@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package ca.idrc.tecla.latin.makedict;
 
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
+import ca.idrc.tecla.latin.makedict.FusionDictionary.WeightedString;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.define;
+package ca.idrc.tecla.latin.define;
 
 public final class ProductionFlag {
     private ProductionFlag() {

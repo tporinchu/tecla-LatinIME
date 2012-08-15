@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
+import ca.idrc.tecla.keyboard.KeyDetector;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.ProximityInfo;
+import ca.idrc.tecla.latin.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

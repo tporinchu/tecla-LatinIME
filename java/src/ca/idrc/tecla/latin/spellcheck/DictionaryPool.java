@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
 import java.util.Locale;
 import java.util.concurrent.LinkedBlockingQueue;

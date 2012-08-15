@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,16 +27,16 @@ import android.util.TypedValue;
 import android.util.Xml;
 import android.view.InflateException;
 
-import com.android.inputmethod.keyboard.internal.KeyStyles;
-import com.android.inputmethod.keyboard.internal.KeyboardCodesSet;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.keyboard.internal.KeyboardTextsSet;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.LocaleUtils.RunInLocale;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SubtypeLocale;
-import com.android.inputmethod.latin.Utils;
-import com.android.inputmethod.latin.XmlParseUtils;
+import ca.idrc.tecla.keyboard.internal.KeyStyles;
+import ca.idrc.tecla.keyboard.internal.KeyboardCodesSet;
+import ca.idrc.tecla.keyboard.internal.KeyboardIconsSet;
+import ca.idrc.tecla.keyboard.internal.KeyboardTextsSet;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.LocaleUtils.RunInLocale;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.SubtypeLocale;
+import ca.idrc.tecla.latin.Utils;
+import ca.idrc.tecla.latin.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

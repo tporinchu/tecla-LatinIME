@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,7 +22,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.inputmethod.latin.LocaleUtils.RunInLocale;
+import ca.idrc.tecla.latin.LocaleUtils.RunInLocale;
 
 import java.util.HashMap;
 import java.util.Locale;

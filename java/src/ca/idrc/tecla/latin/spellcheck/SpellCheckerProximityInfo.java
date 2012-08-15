@@ -14,10 +14,10 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package ca.idrc.tecla.latin.spellcheck;
 
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.keyboard.KeyDetector;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 import java.util.TreeMap;
 

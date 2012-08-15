@@ -14,13 +14,13 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
-import static com.android.inputmethod.latin.Constants.ImeOption.FORCE_ASCII;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_SETTINGS_KEY;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
+import static ca.idrc.tecla.latin.Constants.ImeOption.FORCE_ASCII;
+import static ca.idrc.tecla.latin.Constants.ImeOption.NO_MICROPHONE;
+import static ca.idrc.tecla.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import static ca.idrc.tecla.latin.Constants.ImeOption.NO_SETTINGS_KEY;
+import static ca.idrc.tecla.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -33,15 +33,15 @@ import android.util.Xml;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.compat.EditorInfoCompatUtils;
-import com.android.inputmethod.keyboard.KeyboardLayoutSet.Params.ElementParams;
-import com.android.inputmethod.latin.InputAttributes;
-import com.android.inputmethod.latin.InputTypeUtils;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SubtypeLocale;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.XmlParseUtils;
+import ca.idrc.tecla.compat.EditorInfoCompatUtils;
+import ca.idrc.tecla.keyboard.KeyboardLayoutSet.Params.ElementParams;
+import ca.idrc.tecla.latin.InputAttributes;
+import ca.idrc.tecla.latin.InputTypeUtils;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.SubtypeLocale;
+import ca.idrc.tecla.latin.SubtypeSwitcher;
+import ca.idrc.tecla.latin.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

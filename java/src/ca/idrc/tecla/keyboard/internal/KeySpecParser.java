@@ -14,15 +14,15 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
-import static com.android.inputmethod.keyboard.Keyboard.CODE_UNSPECIFIED;
+import static ca.idrc.tecla.keyboard.Keyboard.CODE_UNSPECIFIED;
 
 import android.text.TextUtils;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.StringUtils;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

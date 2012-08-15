@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package ca.idrc.tecla.latin.makedict;
 
 /**
  * Simple exception thrown when a file format is not recognized.

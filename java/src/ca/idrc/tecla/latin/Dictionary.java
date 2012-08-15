@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 /**
  * Abstract base class for a dictionary that can do a fuzzy search for words based on a set of key

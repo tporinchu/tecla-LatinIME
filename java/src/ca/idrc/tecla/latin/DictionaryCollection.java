@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
+import ca.idrc.tecla.keyboard.ProximityInfo;
 
 import android.util.Log;
 

@@ -14,15 +14,15 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.VibratorUtils;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.latin.VibratorUtils;
 
 /**
  * This class gathers audio feedback and haptic feedback functions.

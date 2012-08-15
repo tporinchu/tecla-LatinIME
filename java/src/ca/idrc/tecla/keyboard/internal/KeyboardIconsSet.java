@@ -14,14 +14,14 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package ca.idrc.tecla.keyboard.internal;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
 
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.latin.R;
 
 import java.util.HashMap;
 

@@ -14,17 +14,17 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.content.Context;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.ResearchLogger;
-import com.android.inputmethod.latin.Utils;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.latin.LatinImeLogger;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.ResearchLogger;
+import ca.idrc.tecla.latin.Utils;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 public class SuddenJumpingTouchEventHandler {
     private static final String TAG = SuddenJumpingTouchEventHandler.class.getSimpleName();

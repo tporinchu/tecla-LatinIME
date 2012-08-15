@@ -14,13 +14,13 @@
  * the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
-import static com.android.inputmethod.keyboard.Keyboard.CODE_OUTPUT_TEXT;
-import static com.android.inputmethod.keyboard.Keyboard.CODE_SHIFT;
-import static com.android.inputmethod.keyboard.Keyboard.CODE_SWITCH_ALPHA_SYMBOL;
-import static com.android.inputmethod.keyboard.Keyboard.CODE_UNSPECIFIED;
-import static com.android.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
+import static ca.idrc.tecla.keyboard.Keyboard.CODE_OUTPUT_TEXT;
+import static ca.idrc.tecla.keyboard.Keyboard.CODE_SHIFT;
+import static ca.idrc.tecla.keyboard.Keyboard.CODE_SWITCH_ALPHA_SYMBOL;
+import static ca.idrc.tecla.keyboard.Keyboard.CODE_UNSPECIFIED;
+import static ca.idrc.tecla.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -31,12 +31,12 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Xml;
 
-import com.android.inputmethod.keyboard.internal.KeySpecParser;
-import com.android.inputmethod.keyboard.internal.KeySpecParser.MoreKeySpec;
-import com.android.inputmethod.keyboard.internal.KeyStyles.KeyStyle;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.StringUtils;
+import ca.idrc.tecla.keyboard.internal.KeySpecParser;
+import ca.idrc.tecla.keyboard.internal.KeySpecParser.MoreKeySpec;
+import ca.idrc.tecla.keyboard.internal.KeyStyles.KeyStyle;
+import ca.idrc.tecla.keyboard.internal.KeyboardIconsSet;
+import ca.idrc.tecla.latin.R;
+import ca.idrc.tecla.latin.StringUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

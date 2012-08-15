@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package ca.idrc.tecla.latin;
 
 import android.content.SharedPreferences;
 import android.inputmethodservice.InputMethodService;
@@ -30,11 +30,11 @@ import android.view.MotionEvent;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.internal.KeyboardState;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import ca.idrc.tecla.keyboard.Key;
+import ca.idrc.tecla.keyboard.KeyDetector;
+import ca.idrc.tecla.keyboard.Keyboard;
+import ca.idrc.tecla.keyboard.internal.KeyboardState;
+import ca.idrc.tecla.latin.define.ProductionFlag;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package ca.idrc.tecla.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,9 +23,9 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.PopupWindow;
 
-import com.android.inputmethod.keyboard.PointerTracker.DrawingProxy;
-import com.android.inputmethod.keyboard.PointerTracker.TimerProxy;
-import com.android.inputmethod.latin.R;
+import ca.idrc.tecla.keyboard.PointerTracker.DrawingProxy;
+import ca.idrc.tecla.keyboard.PointerTracker.TimerProxy;
+import ca.idrc.tecla.latin.R;
 
 /**
  * A view that renders a virtual {@link MoreKeysKeyboard}. It handles rendering of keys and
