@@ -81,7 +81,7 @@ static JNINativeMethod sKeyboardMethods[] = {
 };
 
 int register_ProximityInfo(JNIEnv *env) {
-    const char *const kClassPathName = "com/android/inputmethod/keyboard/ProximityInfo";
+    const char *const kClassPathName = "ca/idrc/tecla/keyboard/ProximityInfo";
     return registerNativeMethods(env, kClassPathName, sKeyboardMethods,
             sizeof(sKeyboardMethods) / sizeof(sKeyboardMethods[0]));
 }
