@@ -7,12 +7,23 @@
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-sdk android:targetSdkVersion="16" android:minSdkVersion="16"/>
-
+    <!-- Required for Tecla accessibility overlay. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
     <application android:label="@string/aosp_android_keyboard_ime_name"
             android:icon="@drawable/ic_ime_settings"
             android:backupAgent="BackupAgent"
             android:killAfterRestore="false">
-
+            
+        <service
+            android:name="ca.idrc.tecla.TeclaAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+			<meta-data android:name="android.accessibilityservice" android:resource="@xml/tecla_a11yservice_config" />
+        </service>
+        
         <service android:name="LatinIME"
                 android:label="@string/aosp_android_keyboard_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
