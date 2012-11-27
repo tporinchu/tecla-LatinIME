@@ -2,11 +2,17 @@
 
 Upstream remote (origin): https://android.googlesource.com/platform/packages/inputmethods/LatinIME @jb-release
 
-Relies on symlinks to Android framework packages:
+Requires Android framework packages:
 * inputmethodcommon: https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon @jb-release
-* support: in Eclipse > Android Tools > Add support library...
+* support (from SDK)
 
-## Branches
+# Compiling
+1. Create a symlink to inputmethodcommon
+2. Create a symlink to jni folder in java source root
+3. Set up NDK project: in Eclipse > Android Tools > Add Native Support...
+4. Set up Support library: in Eclipse > Android Tools > Add Support Library...
+
+# Branches
 
 * **develop**: main development branch (all feature/bug branches should pull from here)
 * **[version]-release**: version release branches (do not fork!)
