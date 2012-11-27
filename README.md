@@ -10,4 +10,3 @@ Relies on symlinks to Android framework packages:
 
 * **develop**: main development branch (all feature/bug branches should pull from here)
 * **[version]-release**: version release branches (do not fork!)
-* **jb-release**: original branch (do not fork!)
