@@ -11,6 +11,7 @@ Requires Android framework packages:
 2. Create a symlink to jni folder in java source root
 3. Set up NDK project: in Eclipse > Android Tools > Add Native Support...
 4. Set up Support library: in Eclipse > Android Tools > Add Support Library...
+5. Build native source, then Android app
 
 # Branches
 
