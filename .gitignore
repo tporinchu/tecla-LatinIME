@@ -1,5 +1,8 @@
 java/.classpath
 java/.project
+java/.cproject
 java/bin/
 java/gen/
 java/project.properties
+java/libs
+java/obj
