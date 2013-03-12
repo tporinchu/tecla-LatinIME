@@ -7,3 +7,6 @@
 *project.properties
 */libs
 */obj
+java/jni
+java/src/com/android/inputmethodcommon
+
