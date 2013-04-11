@@ -74,7 +74,7 @@
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
         <service
-            android:name="ca.idrc.tecla.TeclaAccessibilityService"
+            android:name="ca.idrc.tecla.highlighter.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
