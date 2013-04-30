@@ -12,6 +12,7 @@
         android:targetSdkVersion="16" />
 
     <application
+        android:name="com.android.tecla.keyboard.TeclaApp"
         android:backupAgent="BackupAgent"
         android:icon="@drawable/ic_ime_settings"
         android:killAfterRestore="false"
@@ -74,7 +75,7 @@
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
         <service
-            android:name="ca.idrc.tecla.highlighter.TeclaAccessibilityService"
+            android:name="com.android.tecla.keyboard.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
