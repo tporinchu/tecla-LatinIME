@@ -640,15 +640,10 @@ public class LatinKeyboardView extends KeyboardView implements PointerTracker.Ke
 
     @Override
     public boolean onTouchEvent(MotionEvent me) {
-    	if(me.getAction() == MotionEvent.ACTION_UP) {
-        	com.android.tecla.keyboard.IMEAdapter.selectScanHighlighted();
-    	}
-    	return true;
-    	// temporarily commmented for testing scanning
-        /*if (getKeyboard() == null) {
+        if (getKeyboard() == null) {
             return false;
         }
-        return mTouchScreenRegulator.onTouchEvent(me);*/
+        return mTouchScreenRegulator.onTouchEvent(me);
     }
 
     @Override
