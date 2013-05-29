@@ -47,14 +47,6 @@
         </service>
 
         <activity
-            android:name="SettingsActivity"
-            android:label="@string/english_ime_settings"
-            android:uiOptions="splitActionBarWhenNarrow" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity"
             android:label="@string/android_spell_checker_settings" >
             <intent-filter>
@@ -78,6 +70,16 @@
         </receiver>
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
+        <activity
+            android:name="ca.idrc.tecla.framework.SettingsActivity"
+            android:label="@string/english_ime_settings"
+            android:noHistory="false" >
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
         <service
             android:name="com.android.tecla.keyboard.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
