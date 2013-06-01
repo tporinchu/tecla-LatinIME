@@ -65,7 +65,7 @@ import com.android.inputmethod.latin.Suggest;
 import com.android.inputmethod.latin.SuggestedWords;
 import com.android.inputmethod.latin.Utils;
 import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.tecla.keyboard.WordPredictionAdapter;
+import com.android.tecla.addon.WordPredictionAdapter;
 
 import java.util.ArrayList;
 

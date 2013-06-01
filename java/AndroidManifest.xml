@@ -14,7 +14,7 @@
         android:targetSdkVersion="16" />
 
     <application
-        android:name="com.android.tecla.keyboard.TeclaApp"
+        android:name="com.android.tecla.addon.TeclaApp"
         android:backupAgent="BackupAgent"
         android:icon="@drawable/ic_ime_settings"
         android:killAfterRestore="false"
@@ -70,7 +70,7 @@
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
         <activity
-            android:name="com.android.tecla.keyboard.SettingsActivity"
+            android:name="com.android.tecla.addon.SettingsActivity"
             android:label="@string/english_ime_settings"
             android:noHistory="false"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -81,7 +81,7 @@
         </activity>
         
         <activity
-            android:name="com.android.tecla.keyboard.OnboardingActivity"
+            android:name="com.android.tecla.addon.OnboardingActivity"
             android:label="@string/app_name"
             android:noHistory="false" >
             <intent-filter>
@@ -90,7 +90,7 @@
         </activity>
         
         <service
-            android:name="com.android.tecla.keyboard.TeclaAccessibilityService"
+            android:name="com.android.tecla.addon.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -102,7 +102,7 @@
         </service>
                 
         <service
-            android:name="com.android.tecla.keyboard.SwitchEventProvider"
+            android:name="com.android.tecla.addon.SwitchEventProvider"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="ca.idi.tecla.framework.SWITCH_EVENT_PROVIDER" />
