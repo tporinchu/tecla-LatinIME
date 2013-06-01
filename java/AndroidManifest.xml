@@ -19,17 +19,6 @@
         android:killAfterRestore="false"
         android:label="@string/aosp_android_keyboard_ime_name" >
         
-        <activity
-            android:name="ca.idrc.tecla.framework.SettingsActivity"
-            android:label="@string/english_ime_settings"
-            android:noHistory="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        
         <service
             android:name="LatinIME"
             android:label="@string/aosp_android_keyboard_ime_name"
@@ -87,6 +76,25 @@
         </receiver>
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
+        <activity
+            android:name="com.android.tecla.keyboard.SettingsActivity"
+            android:label="@string/english_ime_settings"
+            android:noHistory="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.android.tecla.keyboard.OnboardingActivity"
+            android:label="@string/app_name"
+            android:noHistory="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
         <service
             android:name="com.android.tecla.keyboard.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
