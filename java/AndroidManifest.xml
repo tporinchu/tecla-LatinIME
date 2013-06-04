@@ -17,7 +17,7 @@
         android:name="com.android.tecla.addon.TeclaApp"
         android:allowBackup="true"
         android:backupAgent="BackupAgent"
-        android:icon="@drawable/ic_ime_settings"
+        android:icon="@drawable/tecla_next_icon"
         android:killAfterRestore="false"
         android:label="@string/tecla_next" >
         
@@ -71,7 +71,7 @@
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
         <activity
-            android:name="com.android.tecla.addon.SettingsActivity"
+            android:name="SettingsActivity"
             android:label="@string/tecla_next_settings"
             android:noHistory="false"
             android:uiOptions="splitActionBarWhenNarrow" >
