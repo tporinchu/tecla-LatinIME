@@ -71,7 +71,7 @@
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
         <activity
-            android:name="SettingsActivity"
+            android:name="com.android.tecla.addon.TeclaSettingsActivity"
             android:label="@string/tecla_next_settings"
             android:noHistory="false"
             android:uiOptions="splitActionBarWhenNarrow" >
