@@ -20,7 +20,6 @@
         android:icon="@drawable/ic_ime_settings"
         android:killAfterRestore="false"
         android:label="@string/tecla_next" >
-        
         <service
             android:name="LatinIME"
             android:label="@string/tecla_next"
@@ -70,8 +69,20 @@
         </receiver>
 
         <!-- TECLA-ONLY COMPONENTS BEYOND THIS POINT -->
+        <!-- The following declaration is required to prevent the app from confusing the
+            keyboard settings with the Tecla settings  -->
+        <activity 
+            android:name="com.android.inputmethod.latin.SettingsActivity"
+            android:icon="@drawable/ic_ime_settings"
+            android:noHistory="false"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.android.tecla.addon.TeclaSettingsActivity"
+            android:icon="@drawable/tecla_next_icon"
             android:label="@string/tecla_next_settings"
             android:noHistory="false"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -80,7 +91,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
         <service
             android:name="com.android.tecla.addon.TeclaAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
@@ -92,7 +103,6 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/tecla_a11yservice_config" />
         </service>
-                
         <service
             android:name="com.android.tecla.addon.SwitchEventProvider"
             android:enabled="true" >
@@ -101,7 +111,7 @@
             </intent-filter>
         </service>
     </application>
-    
+
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
 </manifest>
