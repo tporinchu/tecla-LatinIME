@@ -93,6 +93,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <service
+            android:name="com.android.tecla.addon.TeclaShieldService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.android.tecla.addon.TECLA_SHIELD_SERVICE" />
+            </intent-filter>
+        </service>
 
         <service
             android:name="com.android.tecla.addon.TeclaAccessibilityService"
