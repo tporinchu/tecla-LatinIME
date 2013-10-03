@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -91,6 +93,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <service
+            android:name="com.android.tecla.addon.TeclaShieldService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.android.tecla.addon.TECLA_SHIELD_SERVICE" />
+            </intent-filter>
+        </service>
 
         <service
             android:name="com.android.tecla.addon.TeclaAccessibilityService"
