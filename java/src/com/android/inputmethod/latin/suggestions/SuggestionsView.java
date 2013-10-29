@@ -65,7 +65,7 @@ import com.android.inputmethod.latin.Suggest;
 import com.android.inputmethod.latin.SuggestedWords;
 import com.android.inputmethod.latin.Utils;
 import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.tecla.addon.WordPredictionAdapter;
+import com.android.tecla.AdapterWordPrediction;
 
 import java.util.ArrayList;
 
@@ -619,7 +619,7 @@ public class SuggestionsView extends RelativeLayout implements OnClickListener,
         mPreviewPopup.setBackgroundDrawable(null);
 
         mSuggestionsStrip = (ViewGroup)findViewById(R.id.suggestions_strip);
-        WordPredictionAdapter.setSuggestionsViewGroup(mSuggestionsStrip);
+        AdapterWordPrediction.setSuggestionsViewGroup(mSuggestionsStrip);
         for (int pos = 0; pos < MAX_SUGGESTIONS; pos++) {
             final TextView word = (TextView)inflater.inflate(R.layout.suggestion_word, null);
             word.setTag(pos);
