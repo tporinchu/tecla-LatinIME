@@ -16,7 +16,7 @@
         android:targetSdkVersion="16" />
 
     <application
-        android:name="com.android.tecla.addon.TeclaApp"
+        android:name="com.android.tecla.TeclaApp"
         android:allowBackup="true"
         android:backupAgent="BackupAgent"
         android:icon="@drawable/ic_ime_settings"
@@ -83,7 +83,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.tecla.addon.TeclaSettingsActivity"
+            android:name="com.android.tecla.PreferencesActivity"
             android:icon="@drawable/tecla_next_icon"
             android:label="@string/tecla_next_settings"
             android:noHistory="false"
@@ -95,15 +95,15 @@
         </activity>
         
         <service
-            android:name="com.android.tecla.addon.TeclaShieldService"
+            android:name="com.android.tecla.ServiceShield"
             android:enabled="true" >
             <intent-filter>
-                <action android:name="com.android.tecla.addon.TECLA_SHIELD_SERVICE" />
+                <action android:name="com.android.tecla.TECLA_SHIELD_SERVICE" />
             </intent-filter>
         </service>
 
         <service
-            android:name="com.android.tecla.addon.TeclaAccessibilityService"
+            android:name="com.android.tecla.ServiceAccessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -114,7 +114,7 @@
                 android:resource="@xml/tecla_a11yservice_config" />
         </service>
         <service
-            android:name="com.android.tecla.addon.SwitchEventProvider"
+            android:name="com.android.tecla.ServiceSwitchEventProvider"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="ca.idi.tecla.framework.SWITCH_EVENT_PROVIDER" />

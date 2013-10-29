@@ -82,7 +82,7 @@ import java.util.Locale;
 /**
  * Input method implementation for Qwerty'ish keyboard.
  */
-public class LatinIME extends com.android.tecla.addon.TeclaIME /*InputMethodService*/ implements KeyboardActionListener,
+public class LatinIME extends com.android.tecla.TeclaIME /*InputMethodService*/ implements KeyboardActionListener,
         SuggestionsView.Listener, TargetApplicationGetter.OnTargetApplicationKnownListener {
     private static final String TAG = LatinIME.class.getSimpleName();
     private static final boolean TRACE = false;
