@@ -1,0 +1,17 @@
+*.classpath
+*.project
+*.cproject
+*.settings
+*project.properties
+*/bin
+*/gen
+
+# Symbolic links
+java/jni
+java/src/com/android/inputmethodcommon
+
+#Libraries
+java/libs
+
+#Native files
+java/obj
