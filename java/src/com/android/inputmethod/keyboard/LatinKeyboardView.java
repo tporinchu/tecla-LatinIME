@@ -64,7 +64,7 @@ import java.util.WeakHashMap;
  * @attr ref R.styleable#KeyboardView_verticalCorrection
  * @attr ref R.styleable#KeyboardView_popupLayout
  */
-public class LatinKeyboardView extends KeyboardView implements PointerTracker.KeyEventHandler,
+public class LatinKeyboardView extends com.android.tecla.TeclaKeyboardView implements PointerTracker.KeyEventHandler,
         SuddenJumpingTouchEventHandler.ProcessMotionEvent {
     private static final String TAG = LatinKeyboardView.class.getSimpleName();
 

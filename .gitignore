@@ -9,6 +9,7 @@
 # Symbolic links
 java/jni
 java/src/com/android/inputmethodcommon
+java/src/com/android/tecla
 
 #Libraries
 java/libs
